@@ -1,4 +1,5 @@
-const getDataType = (target: object) => Object.prototype.toString.call(target).slice(8, -1);
+const getDataType = (target: object) =>
+  Object.prototype.toString.call(target).slice(8, -1);
 
 export function deepClone(target: any) {
   if (target === null || target === undefined) {

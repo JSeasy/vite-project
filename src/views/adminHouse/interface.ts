@@ -1,15 +1,14 @@
 import type { FormInstance } from 'element-plus';
 
-export interface IModalFormInstance {
-  form: FormInstance;
-  data: IFormData;
-}
-
 export interface IFormData {
   communityName: string;
   floor: number;
   address: string;
   compleYear: string;
+}
+export interface IModalFormInstance {
+  form: FormInstance;
+  data: IFormData;
 }
 
 export interface IUser {

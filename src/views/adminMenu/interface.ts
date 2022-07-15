@@ -6,10 +6,6 @@ export interface ICreateMenuForm {
   iconName: string;
 }
 
-export interface ICreateMenuFormTree extends IMenuTableRow {
-  children: ICreateMenuFormTree[];
-}
-
 export interface IQueryMenuCondition {
   current?: number;
   pageSize?: number;
@@ -29,6 +25,9 @@ function a() {
   return new Promise((reolve, reject) => {
     reolve(1);
   });
+}
+export interface ICreateMenuFormTree extends IMenuTableRow {
+  children: ICreateMenuFormTree[];
 }
 
 // const PENDING = "pending";

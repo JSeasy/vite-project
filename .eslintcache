@@ -1,1 +1,385 @@
-[{"C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\env.d.ts":"1","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\hook\\index.ts":"2","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\interfaces\\index.ts":"3","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\main.ts":"4","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\request\\index.ts":"5","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\router\\index.ts":"6","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\router\\router.config.ts":"7","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\store\\index.ts":"8","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\store\\modules\\menu.ts":"9","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\store\\modules\\user.ts":"10","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\utils\\index.ts":"11","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\views\\adminHouse\\interface.ts":"12","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\views\\adminMenu\\api\\index.ts":"13","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\views\\adminMenu\\interface.ts":"14","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\views\\adminUser\\api\\index.ts":"15","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\views\\adminUser\\interface.ts":"16","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\views\\login\\interface.ts":"17","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\views\\regist\\api\\index.ts":"18","C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\views\\regist\\interface.ts":"19"},{"size":284,"mtime":1653372576310},{"size":209,"mtime":1657848541235},{"size":555,"mtime":1657848477570},{"size":379,"mtime":1653880075134},{"size":970,"mtime":1657848253708},{"size":182,"mtime":1653462866508},{"size":768,"mtime":1657848253708},{"size":89,"mtime":1651562524982},{"size":360,"mtime":1657848253708},{"size":356,"mtime":1657848253708},{"size":729,"mtime":1657848253708},{"size":578,"mtime":1657848253708},{"size":883,"mtime":1657848253708},{"size":1889,"mtime":1655107930134,"results":"20","hashOfConfig":"21"},{"size":306,"mtime":1657848253708},{"size":154,"mtime":1653877010717,"results":"22","hashOfConfig":"21"},{"size":59,"mtime":1653476515362},{"size":322,"mtime":1657848253710},{"size":197,"mtime":1653877010718,"results":"23","hashOfConfig":"21"},{"filePath":"24","messages":"25","suppressedMessages":"26","errorCount":3,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},"1tdf17q",{"filePath":"27","messages":"28","suppressedMessages":"29","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"30","messages":"31","suppressedMessages":"32","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\views\\adminMenu\\interface.ts",["33","34","35"],[],"C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\views\\adminUser\\interface.ts",[],[],"C:\\Users\\摸~\\Desktop\\leecode\\vite-project\\src\\views\\regist\\interface.ts",[],[],{"ruleId":"36","severity":2,"message":"37","line":9,"column":46,"nodeType":"38","messageId":"39","endLine":9,"endColumn":59},{"ruleId":"40","severity":2,"message":"41","line":28,"column":10,"nodeType":"38","messageId":"42","endLine":28,"endColumn":11},{"ruleId":"40","severity":2,"message":"43","line":29,"column":31,"nodeType":"38","messageId":"42","endLine":29,"endColumn":37},"no-use-before-define","'IMenuTableRow' was used before it was defined.","Identifier","usedBeforeDefined","no-unused-vars","'a' is defined but never used.","unusedVar","'reject' is defined but never used."]
+[
+  {
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\env.d.ts": "1",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\hook\\index.ts": "2",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\interfaces\\index.ts": "3",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\main.ts": "4",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\request\\index.ts": "5",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\router\\index.ts": "6",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\router\\router.config.ts": "7",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\store\\index.ts": "8",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\store\\modules\\menu.ts": "9",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\store\\modules\\user.ts": "10",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\utils\\index.ts": "11",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\adminHouse\\interface.ts": "12",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\adminMenu\\api\\index.ts": "13",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\adminMenu\\interface.ts": "14",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\adminUser\\api\\index.ts": "15",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\adminUser\\interface.ts": "16",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\login\\interface.ts": "17",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\regist\\api\\index.ts": "18",
+    "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\regist\\interface.ts": "19"
+  },
+  {
+    "size": 284,
+    "mtime": 1657852881310,
+    "results": "20",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 235,
+    "mtime": 1657853671250,
+    "results": "22",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 556,
+    "mtime": 1657852881311,
+    "results": "23",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 376,
+    "mtime": 1657853658720,
+    "results": "24",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 941,
+    "mtime": 1657852881311,
+    "results": "25",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 182,
+    "mtime": 1657852881311,
+    "results": "26",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 769,
+    "mtime": 1657852881311,
+    "results": "27",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 89,
+    "mtime": 1657852881311,
+    "results": "28",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 383,
+    "mtime": 1657852881311,
+    "results": "29",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 379,
+    "mtime": 1657852881311,
+    "results": "30",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 717,
+    "mtime": 1657853745672,
+    "results": "31",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 577,
+    "mtime": 1657853765981,
+    "results": "32",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 835,
+    "mtime": 1657853777871,
+    "results": "33",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 1888,
+    "mtime": 1657853790424,
+    "results": "34",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 286,
+    "mtime": 1657852881311,
+    "results": "35",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 154,
+    "mtime": 1657852502538,
+    "results": "36",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 59,
+    "mtime": 1657852881311,
+    "results": "37",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 310,
+    "mtime": 1657853636927,
+    "results": "38",
+    "hashOfConfig": "21"
+  },
+  {
+    "size": 197,
+    "mtime": 1657852502540,
+    "results": "39",
+    "hashOfConfig": "21"
+  },
+  {
+    "filePath": "40",
+    "messages": "41",
+    "suppressedMessages": "42",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "yzyzbd",
+  {
+    "filePath": "43",
+    "messages": "44",
+    "suppressedMessages": "45",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "46",
+    "messages": "47",
+    "suppressedMessages": "48",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "49",
+    "messages": "50",
+    "suppressedMessages": "51",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "52",
+    "messages": "53",
+    "suppressedMessages": "54",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "55",
+    "messages": "56",
+    "suppressedMessages": "57",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "58",
+    "messages": "59",
+    "suppressedMessages": "60",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "61",
+    "messages": "62",
+    "suppressedMessages": "63",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "64",
+    "messages": "65",
+    "suppressedMessages": "66",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "67",
+    "messages": "68",
+    "suppressedMessages": "69",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "70",
+    "messages": "71",
+    "suppressedMessages": "72",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "73",
+    "messages": "74",
+    "suppressedMessages": "75",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "76",
+    "messages": "77",
+    "suppressedMessages": "78",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "79",
+    "messages": "80",
+    "suppressedMessages": "81",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "82",
+    "messages": "83",
+    "suppressedMessages": "84",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "85",
+    "messages": "86",
+    "suppressedMessages": "87",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "88",
+    "messages": "89",
+    "suppressedMessages": "90",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "91",
+    "messages": "92",
+    "suppressedMessages": "93",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "94",
+    "messages": "95",
+    "suppressedMessages": "96",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\env.d.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\hook\\index.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\interfaces\\index.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\main.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\request\\index.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\router\\index.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\router\\router.config.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\store\\index.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\store\\modules\\menu.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\store\\modules\\user.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\utils\\index.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\adminHouse\\interface.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\adminMenu\\api\\index.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\adminMenu\\interface.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\adminUser\\api\\index.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\adminUser\\interface.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\login\\interface.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\regist\\api\\index.ts",
+  [],
+  [],
+  "C:\\Users\\摸~\\Desktop\\leecode\\prtesing\\vite-project\\src\\views\\regist\\interface.ts",
+  [],
+  []
+]
